@@ -9,7 +9,7 @@ public:
 	ABase1(int b = 0){
 		this->b = b;
 	};
-	virtual void display() const = 0;//纯虚函数    只能由派生类实现
+	virtual void display() const = 0;//纯虚函数   只能由派生类实现
 };
 
 
