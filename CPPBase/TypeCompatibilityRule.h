@@ -35,5 +35,5 @@ public:
 
 void fun(B1 * ptr)
 {
-	ptr->display();
+	ptr->display();//替代后，派生类就可以作为基类的对象使用，但只能使用从基类继承的成员
 }

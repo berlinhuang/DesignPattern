@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
-
+//虚函数 virtaul type func(param...);
 
 class VB1
 {
 public:
-	virtual void display() const;
+	virtual void display() const;//虚函数
 };
 
 void VB1::display() const
@@ -15,10 +15,10 @@ void VB1::display() const
 
 /**********************************************/
 
-class VB2:public VB1
+class VB2:public VB1 //公有派生类
 {
 public:
-	virtual void display() const;
+	virtual void display() const; //覆盖基类的虚函数
 };
 
 void VB2::display() const

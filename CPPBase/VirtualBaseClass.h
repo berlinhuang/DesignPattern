@@ -46,7 +46,7 @@ class Derived :public Base1, public Base2
 private:
 	int var;
 public:
-	//派生类的构造函数的成员初始化列表中必须列出对虚基类构造函数Base(var)的调用
+	//（最远）派生类的构造函数的成员初始化列表中必须列出对虚基类构造函数Base(var)的调用
 	//如果未列出，则表示使用该虚基类的缺省构造函数
 	//Base1,Base2构造函数对虚基类构造函数的调用自动被忽略
 	Derived(int var) :Base(var), Base1(var), Base2(var)
