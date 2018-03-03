@@ -1,7 +1,7 @@
 //
 // Created by root on 17-11-20.
 //
-
+// 虚拟多重继承
 #ifndef DESIGNPATTERN_VIRTUALBASECLASS_H
 #define DESIGNPATTERN_VIRTUALBASECLASS_H
 #include <iostream>

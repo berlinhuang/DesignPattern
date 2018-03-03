@@ -19,6 +19,7 @@ void virtualFun()
     VB1 vb1;
     VB2 vb2;
     VB3 vb3;
+    //
     vfun(&vb1);//VB1::display
     vfun(&vb2);//VB2::display
     vfun(&vb3);//VB3::display
@@ -35,8 +36,8 @@ void typeCompatibilityRule()
     B2 b2;
     D d;
     fun(&b1);//B1::display()
-    fun(&b2);//B1::display()
-    fun(&d);//B1::display()
+    fun(&b2);//B1::display()          //基类指针B1 * ptr  指向  派生类对象b2
+    fun(&d);//B1::display()           //基类指针B1 * ptr  指向  派生类对象d
 }
 
 //虚基类
