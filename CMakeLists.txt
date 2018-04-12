@@ -7,6 +7,7 @@ add_subdirectory(Test)
 add_subdirectory(cppbase)
 add_subdirectory(StructPattern)
 add_subdirectory(CreatorPattern)
+add_subdirectory(ActionPattern)
 
 
 #
