@@ -1,7 +1,14 @@
 #include <iostream>
 using namespace std;
 
-//抽象类     带有纯纯虚函数的类
+//     		           ABase1	
+//			         	 |   public
+//   				   ABase2 
+//   				     |   public
+//					  ADerived
+
+
+//抽象类     带有纯虚函数的类
 class ABase1{
 protected:
 	int b;

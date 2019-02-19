@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="VB1">
+    <Position X="4.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VirtualFun.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VB2">
+    <Position X="4.75" Y="3.25" Width="1.5" />
+    <InheritanceLine Type="VB1">
+      <InheritanceModifierLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.079" Y="0.32" Height="0.181" Width="0.937" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VirtualFun.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VB3">
+    <Position X="4.75" Y="5.5" Width="1.5" />
+    <InheritanceLine Type="VB2">
+      <InheritanceModifierLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.089" Y="0.393" Height="0.181" Width="0.927" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VirtualFun.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ABase1">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAQAAAAAAAIA=</HashCode>
+      <FileName>AbstractClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ABase2">
+    <Position X="1" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>AbstractClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ADerived">
+    <Position X="1" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Base">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAIAAAQAA=</HashCode>
+      <FileName>VirtualBaseClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Base1">
+    <Position X="11.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>VirtualBaseClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Base2">
+    <Position X="8" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>VirtualBaseClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Derived">
+    <Position X="9.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAMAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>VirtualBaseClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

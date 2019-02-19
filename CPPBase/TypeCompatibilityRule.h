@@ -1,6 +1,14 @@
 #include <iostream>
 using namespace std;
 
+
+//		 B1
+//		 |	---> public
+//		 B2
+//		 |  ---> public
+//		 D 
+
+
 class B1
 {
 public:

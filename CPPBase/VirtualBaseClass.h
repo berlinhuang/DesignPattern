@@ -1,6 +1,16 @@
 #include <iostream>
 using namespace std;
 
+//     		            Base	----->	Derived的虚基类
+//	virutal public    	 /\	    virtual public
+//   					/  \	
+//   				Base1  Base2 
+//		public			\  /      public 
+//						 \/
+//					   Derived
+
+
+
 class Base//基类Base
 {
 private:

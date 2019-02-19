@@ -47,3 +47,10 @@ Temporary Items
 .apdisk
 *.opensdf
 *.ipch
+/.vs/DesignPattern/v15
+/CreatorPattern/Debug/CreatorPattern.tlog
+/CPPBase/Debug/CPPBase.tlog
+/CPPBase/Debug
+/CreatorPattern/Debug
+/StructPattern/Debug
+/Test/Debug

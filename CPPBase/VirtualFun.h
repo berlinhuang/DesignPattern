@@ -1,5 +1,12 @@
 #include <iostream>
 using namespace std;
+
+//		VB1
+//		 |	---> public
+//		VB2
+//		 |  ---> public
+//		VB3 
+
 //Ðéº¯Êý virtaul type func(param...);
 
 class VB1
